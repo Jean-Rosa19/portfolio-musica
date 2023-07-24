@@ -44,15 +44,13 @@ export default function DadosProjetos() {
           <>
             <InfoDados initial="hidden" animate="visible" variants={variants}>
               <span>
-                Me chamo Daniel Sandrin de Campos, tenho 23 anos e atuo a dois anos
-                como desenvolvedor FullStack. Estou na área de técnologia desde os 17 anos de idade.
-                Trabalho com técnologias como ASP, VbNet, SqlServer, Ionic. Sou Bacharel em Sistemas
-                de informação pela faculdade Mater Dei. Gosto muito da área de sistemas e sou apaixonado
-                por FrontEnd, onde já dedico meus estudos a mais de um ano. Entrei na área de desenvolvimento
-                por ser facinado em poder criar "A quelas telas bonitas de jogos online" que via quando era
-                criança e desde então fiz varios cursos que me despertaram mais ainda a curiosidade sobre
-                a área de Sistemas. Caso queira saber mais sobre mim, pode estar entrando em contato atráves
-                do Linkedin, <b><a href='https://www.linkedin.com/in/daniel-sandrin/' target={'_blank'}>Clicando aqui!</a></b>
+                Olá! Meu nome é Jean Carlos Rosa, sou um desenvolvedor FullStack com 30 anos de idade e tenho dois anos de experiência na área.
+                Minha paixão pelo desenvolvimento web me levou a dominar tecnologias como Node.js, JavaScript, TypeScript e React.js.
+                Sou formado em Desenvolvimento Web pela Trybe. Ao longo da minha jornada, pude me destacar no desenvolvimento de aplicações que proporcionam facilidades
+                e melhorias para os clientes. Acredito que a combinação de habilidades técnicas com o foco na experiência do
+                usuário é a chave para criar interfaces bonitas e funcionais.Se você quiser saber mais sobre mim e meu trabalho,
+                fique à vontade para entrar em contato através do meu perfil do LinkedIn 
+                <b><a href='https://www.linkedin.com/in/dev-jeanrosa/' target={'_blank'}>Clicando aqui!</a></b>
               </span>
             </InfoDados>
             <h1>Hard Skills</h1>

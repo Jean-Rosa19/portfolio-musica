@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #fff;
+  background: #747a76;
   min-width: 20vw;
   min-height: 90vh;
   border-radius: 15px;
+  border: 2px solid black; 
 `;
 
 export const Informacoes = styled.div`
@@ -19,7 +20,7 @@ export const Funcao = styled.div`
     justify-content: center;
     align-items: center;  
 
-    background: rgba(2,0,36,1);
+    background: #8b7e5b;
     width: 90%;
     margin-top: 4%;
     padding: 10px;
@@ -32,7 +33,7 @@ export const Funcao = styled.div`
 
     svg{
       margin-right: 2%;
-      color: #fff;
+      color: #120e09;
     }
 `;
 
@@ -44,6 +45,7 @@ export const DadosPerfil = styled.div`
 
    h1{
      font-size: 1.5rem;
+     
    }
 
   img{
@@ -62,7 +64,7 @@ export const RedeSociais = styled.div`
   width: 100%;
   margin-top: 7%;
   padding: 5px;
-  background: rgba(2,0,36,1);
+  background: #8b7e5b;
 
   div{
     display: flex;
@@ -71,7 +73,7 @@ export const RedeSociais = styled.div`
     width: 50%;
 
     svg{
-      color: #FFF; 
+      color: #120e09; 
     }
   }
 `; 
@@ -85,7 +87,7 @@ export const DadosEndereco = styled.div`
     margin-top: 7%;
     padding: 10px;
     width: 100%;
-    background: rgba(2,0,36,1);
+    background: #8b7e5b;
 `;
 
 export const Detalhes = styled.div`
@@ -96,7 +98,7 @@ export const Detalhes = styled.div`
 
   svg{
     margin-right:5%;
-    color: #FFF;
+    color: #120e09;
   }
 
 `;

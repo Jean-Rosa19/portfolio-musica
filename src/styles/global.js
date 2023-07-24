@@ -34,7 +34,7 @@ export default createGlobalStyle`
   }
   
   body{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, #8b7e5b 0%, #747a76 100%);
     -webkit-font-smoothing: antialiase;
   }
 
@@ -43,7 +43,7 @@ export default createGlobalStyle`
   }
 
   label, span{
-    color: #FFF;
+    color: #120e09;
     line-height: 28px;
   }
 

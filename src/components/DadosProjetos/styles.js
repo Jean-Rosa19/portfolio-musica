@@ -4,10 +4,11 @@ import { motion } from "framer-motion"
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  background: #fff;
+  background: #bebba9;
   max-width: 100vw;
   min-height: 90vh;
   border-radius: 15px;
+  border: 2px solid black; 
 
   nav{
     display: flex;
@@ -26,7 +27,7 @@ export const Menu = styled.div`
     color: #000;
     font-weight: bold;
     font-size: 1.2rem;
-    color: #6a6a6a;
+    color: #120e09;
     transition: filter 0.5s;
 
     &:hover{
@@ -44,7 +45,7 @@ export const Cabecalho = styled.div`
     align-items:center;
     justify-items: center;
 
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, #313e4b 0%, #90827a 100%);
     padding-top: 8%;
     width: 100%;
     margin-top: 3%;
@@ -72,8 +73,8 @@ export const Dados = styled.div`
   h1{
     margin-top: 2%;
     text-align: center;
-    background:rgba(2,0,36,1);
-    color: #fff;
+    background:#747a76 ;
+    color: #000000;
     width: 100%;
   }
 `;
@@ -92,7 +93,7 @@ export const Skills = styled.div`
   display:flex;
   flex-wrap: wrap;
   flex-grow: 1;
-  background: rgba(2,0,36,1);
+  background: #747a76 ;
   padding: 10px;
   border-radius: 0 0 15px 14px;
   max-height: 48.5vh;
@@ -107,7 +108,7 @@ export const ItemSkill = styled(motion.div)`
   align-items: center;
   flex: 1 1 40%;
   border-radius: 5px;
-  background: rgba(9,9,121,1);
+  background: #8b7e5b;
   margin:0 2% 2% 0;
   height: 15vh;
 
@@ -115,7 +116,7 @@ export const ItemSkill = styled(motion.div)`
     width: 100%;
     h3{
       margin-bottom: 2%;
-      color: #fff;
+      color: #000000;
       font-size: 1em;
     }
 
@@ -138,7 +139,7 @@ export const Itens = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-grow:1;
-  background-color: #fff;
+  background-color: #bebba9;
   max-height: 80vh;
   overflow-y: auto;
   border-radius: 15px;
@@ -151,7 +152,7 @@ export const Card = styled(motion.div)`
   align-items: center;
   justify-content: center;
 
-  background: #fff;
+  background: #000000;
   border-radius: 15px 15px 15px 0;
   margin: 15px 32px;
   width: 25%;
@@ -175,9 +176,9 @@ export const Card = styled(motion.div)`
     justify-content: center;
     width: 100%;
     height: 30%;
-    background-color: rgba(9,9,121,1);
+    background-color:  #8b7e5b; /// aqui cro de fundo da barra dos projetos
     font-size: 1.4em;
-    color: #fff;
+    color: #000000;
     border-radius: 0 0 15px 15px;
 
     svg{
@@ -189,8 +190,8 @@ export const Card = styled(motion.div)`
     border-radius: 15px 15px 0 0;
     width: 100%;
     text-align: center;
-    background-color: rgba(9,9,121,1);
-    color: #fff;
+    background-color:  #8b7e5b; // cor de fundo app receitas
+    color: #000000;
   }
 `;
 
@@ -204,7 +205,7 @@ export const ProgressBar = styled.div`
 export const Progress = styled.div`
   height: 100%;
   width: ${(props) => props.percentual ? `${props.percentual}` : '0%'} !important;
-  background-color: blue;
+  background-color:#000000;
   border-radius: 15px;
   text-align: right;
 

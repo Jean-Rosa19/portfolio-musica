@@ -1,27 +1,28 @@
+
 export const Projetos = [
   {
-    nome: 'Letme Ask (ReactJS)', img: 'https://user-images.githubusercontent.com/40778725/169152460-23a027e3-c756-41f3-8721-b94d1a5dec80.png'
-    , github: 'https://github.com/DanielSandrin/letmeAsk'
+    nome: 'App-Receitas (ReactJS)', img: require('./app-receitas.png')
+    , github: 'https://github.com/Jean-Rosa19/App-Receitas'
   },
   {
-    nome: 'Quiz (ReactJS)', img: 'https://user-images.githubusercontent.com/40778725/168648847-f7d00500-7ece-426e-aeeb-ecd77d2e2aba.png'
-    , github: 'https://github.com/DanielSandrin/Quiz'
+    nome: 'Online-Store (ReactJS)', img: require('./oline-store.png')
+    , github: 'https://github.com/Jean-Rosa19/Online-Store'
   },
   {
-    nome: 'Search (html,JS)', img: 'https://user-images.githubusercontent.com/40778725/165329938-ee8dec0e-3f8c-4cf5-adc6-3cfb1e4e9873.gif'
-    , github: 'https://github.com/DanielSandrin/CampoDeBusca'
+    nome: 'Trunfo (TypeScript, ReactJS)', img: require('./tryunfo-lotr.png')
+    , github: 'https://github.com/Jean-Rosa19/Battle-for-Middle-Earth'
   },
   {
-    nome: 'Carrosel (html,JS)', img: 'https://user-images.githubusercontent.com/40778725/158913411-e0a9ec37-3352-41f9-abd1-9e7e3f94f774.png'
-    , github: 'https://github.com/DanielSandrin/Carrosel'
+    nome: 'DT-Money (TypeScript, React.JS)', img: require('./dt-money.png')
+    , github: 'https://github.com/Jean-Rosa19/Dt-Money'
   },
   {
-    nome: 'Letter Avatar (React)', img: 'https://user-images.githubusercontent.com/40778725/157361948-06beb048-d0cd-4cf3-8cb2-76b625f97720.png'
-    , github: 'https://github.com/DanielSandrin/LetterAvatar'
+    nome: 'Secret-Word (ReactJs, Javascript)', img: require('./secret.png')
+    , github: 'https://github.com/Jean-Rosa19/secret-word'
   },
   {
-    nome: 'PodCaster (React)', img: 'https://user-images.githubusercontent.com/40778725/132875780-6ab6f6c0-715f-4815-b35c-00741aca7a7b.jpg'
-    , github: 'https://github.com/DanielSandrin/PodCaster'
+    nome: 'StarWars-api (NodeJs, TypeScript)', img: require('./starWars-api.png')
+    , github: 'https://github.com/Jean-Rosa19/StarWars-PlanetsApi'
   },
 
 ]

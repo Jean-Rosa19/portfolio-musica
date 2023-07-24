@@ -1,30 +1,25 @@
-import { DiHtml5,DiCss3Full,DiJsBadge,DiReact,DiDatabase,DiCode,DiBootstrap } from "react-icons/di";
+import { DiHtml5,DiCss3Full,DiJsBadge,DiReact,DiNodejs, DiMongodb} from "react-icons/di";
+
 export const SkillsItem = [
   {
-    titulo: 'HTML', Percentual: '55%', icon: <DiHtml5 size={35} color="#fff" />
+    titulo: 'HTML', Percentual: '70%', icon: <DiHtml5 size={35} color="#000000" />
   },
   {
-    titulo: 'CSS', Percentual: '40%', icon: <DiCss3Full size={35} color="#fff" />
+    titulo: 'CSS', Percentual: '70%', icon: <DiCss3Full size={35} color="#000000" />
   },
   {
-    titulo: 'Java Script', Percentual: '35%', icon: <DiJsBadge size={35} color="#fff" />
+    titulo: 'Java Script', Percentual: '80%', icon: <DiJsBadge size={35} color="#000000" />
   },
   {
-    titulo: 'ReactJS', Percentual: '25%', icon: <DiReact size={35} color="#fff" />
+    titulo: 'ReactJS', Percentual: '80%', icon: <DiReact size={35} color="#000000" />
   },
   {
-    titulo: 'ASPNet', Percentual: '85%', icon: <DiCode size={35} color="#fff" />
+    titulo: 'MongoDb', Percentual: '65%', icon: < DiMongodb size={35} color="#000000" />
   }
   ,
   {
-    titulo: 'Bootstrap', Percentual: '50%' ,  icon: <DiBootstrap size={35} color="#fff" />
+    titulo: 'Node.js', Percentual: '80%' ,  icon: <DiNodejs size={35} color="#000000" />
   }
   ,
-  {
-    titulo: 'VBNet', Percentual: '85%', icon: <DiCode size={35} color="#fff" />
-  }
-  ,
-  {
-    titulo: 'SQLServer', Percentual: '50%' ,  icon: <DiDatabase size={35} color="#fff" />
-  }
+
 ]
