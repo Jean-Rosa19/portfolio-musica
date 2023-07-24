@@ -46,11 +46,11 @@ export default function DadosProjetos() {
               <span>
                 Olá! Meu nome é Jean Carlos Rosa, sou um desenvolvedor FullStack com 30 anos de idade e tenho dois anos de experiência na área.
                 Minha paixão pelo desenvolvimento web me levou a dominar tecnologias como Node.js, JavaScript, TypeScript e React.js.
-                Sou formado em Desenvolvimento Web pela Trybe. Ao longo da minha jornada, pude me destacar no desenvolvimento de aplicações que proporcionam facilidades
+                Sou formado em Desenvolvimento Web pela Trybe.Ao longo da minha jornada, pude me destacar no desenvolvimento de aplicações que proporcionam facilidades
                 e melhorias para os clientes. Acredito que a combinação de habilidades técnicas com o foco na experiência do
                 usuário é a chave para criar interfaces bonitas e funcionais.Se você quiser saber mais sobre mim e meu trabalho,
                 fique à vontade para entrar em contato através do meu perfil do LinkedIn 
-                <b><a href='https://www.linkedin.com/in/dev-jeanrosa/' target={'_blank'}>Clicando aqui!</a></b>
+                <b><a href='https://www.linkedin.com/in/dev-jeanrosa/' target={'_blank'}> Clicando aqui!</a></b>
               </span>
             </InfoDados>
             <h1>Hard Skills</h1>
