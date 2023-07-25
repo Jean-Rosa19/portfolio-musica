@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  FaDev, FaYoutube, FaLinkedin, FaGithub, FaMapMarkerAlt,
+  FaDev, FaLinkedin, FaGithub, FaMapMarkerAlt,
   FaRegEnvelope
 } from 'react-icons/fa';
 

@@ -153,7 +153,7 @@ export const Card = styled(motion.div)`
   justify-content: center;
 
   background: #000000;
-  border-radius: 15px 15px 15px 0;
+  border-radius: 15px 15px 15px 15px;
   margin: 15px 32px;
   width: 25%;
   height: 15%;
@@ -176,10 +176,11 @@ export const Card = styled(motion.div)`
     justify-content: center;
     width: 100%;
     height: 30%;
-    background-color:  #8b7e5b; /// aqui cro de fundo da barra dos projetos
+    background-color: #8b7e5b; // aqui cor de fundo da barra dos projetos
     font-size: 1.4em;
     color: #000000;
     border-radius: 0 0 15px 15px;
+  
 
     svg{
       margin-right: 5%;

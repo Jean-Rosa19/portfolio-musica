@@ -4,8 +4,8 @@ import Global from './styles/global';
 function App() {
   return (
     <>
-      <Home/>
-      <Global/>
+      <Home />
+      <Global />
     </>
   );
 }
