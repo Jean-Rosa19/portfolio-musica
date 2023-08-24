@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  background: #bebba9;
+  background: #61BAFA;
   max-width: 100vw;
   min-height: 90vh;
   border-radius: 15px;
@@ -16,6 +16,7 @@ export const Container = styled.div`
   }
 
 `;
+
 
 export const Menu = styled.div`
   display: flex;
@@ -34,7 +35,14 @@ export const Menu = styled.div`
       filter: brightness(0.5)
     }
   }
+
+  .sobre {
+    cursor: pointer;
+  }
+
 `;
+
+
 
 export const Cabecalho = styled.div`
   display:flex;
@@ -45,13 +53,15 @@ export const Cabecalho = styled.div`
     align-items:center;
     justify-items: center;
 
-    background: linear-gradient(90deg, #313e4b 0%, #90827a 100%);
+    background: linear-gradient(90deg, #16324F 0%, #18435A 100%);
     padding-top: 8%;
     width: 100%;
     margin-top: 3%;
     border-radius: 8%;
   }
 `;
+
+
 
 export const OpcoesMenu = styled.div`
   justify-content: space-between;
@@ -61,6 +71,9 @@ export const OpcoesMenu = styled.div`
     margin-right: 12px;
   }
 
+  & span:hover {
+    color: blue
+  }
 `;
 
 export const Dados = styled.div`
@@ -73,7 +86,7 @@ export const Dados = styled.div`
   h1{
     margin-top: 2%;
     text-align: center;
-    background:#747a76 ;
+    background:linear-gradient(90deg, #61BAFA 0%, #16324F 100%);
     color: #000000;
     width: 100%;
   }
@@ -93,7 +106,7 @@ export const Skills = styled.div`
   display:flex;
   flex-wrap: wrap;
   flex-grow: 1;
-  background: #747a76 ;
+  background: #2E6C9E ;
   padding: 10px;
   border-radius: 0 0 15px 14px;
   max-height: 48.5vh;
@@ -108,7 +121,7 @@ export const ItemSkill = styled(motion.div)`
   align-items: center;
   flex: 1 1 40%;
   border-radius: 5px;
-  background: #8b7e5b;
+  background: #3198F8;
   margin:0 2% 2% 0;
   height: 15vh;
 
@@ -139,7 +152,7 @@ export const Itens = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-grow:1;
-  background-color: #bebba9;
+  background-color: #61BAFA;
   max-height: 80vh;
   overflow-y: auto;
   border-radius: 15px;
@@ -176,7 +189,7 @@ export const Card = styled(motion.div)`
     justify-content: center;
     width: 100%;
     height: 30%;
-    background-color: #8b7e5b; // aqui cor de fundo da barra dos projetos
+    background-color: #2E6C9E; // aqui cor de fundo da barra dos projetos
     font-size: 1.4em;
     color: #000000;
     border-radius: 0 0 15px 15px;
@@ -191,28 +204,8 @@ export const Card = styled(motion.div)`
     border-radius: 15px 15px 0 0;
     width: 100%;
     text-align: center;
-    background-color:  #8b7e5b; // cor de fundo app receitas
+    background-color:  #2E6C9E; // cor de fundo app receitas
     color: #000000;
   }
 `;
 
-export const ProgressBar = styled.div`
-  width: 90% !important;
-  background-color: #e0e0de;
-  border-radius: 15px;
-  margin: 15px;
-`;
-
-export const Progress = styled.div`
-  height: 100%;
-  width: ${(props) => props.percentual ? `${props.percentual}` : '0%'} !important;
-  background-color:#000000;
-  border-radius: 15px;
-  text-align: right;
-
-  span{
-    padding: 5%;
-    color: white;
-    font-weight: bold;
-  }
-`;

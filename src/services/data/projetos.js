@@ -1,28 +1,28 @@
 
-export const Projetos = [
+export const Videos = [
   {
-    nome: 'App-Receitas (ReactJS)', img: require('./app-receitas.png')
-    , github: 'https://github.com/Jean-Rosa19/App-Receitas'
+    nome: 'Bon Jovi (FingerStyle)', img: require('./violao-1.png')
+    , youTube: 'https://www.youtube.com/watch?v=AGdqXGLFRfg'
   },
   {
-    nome: 'Online-Store (ReactJS)', img: require('./oline-store.png')
-    , github: 'https://github.com/Jean-Rosa19/Online-Store'
+    nome: 'Garoto (Brasileira)', img: require('./garoto-1.png')
+    , youTube: 'https://www.youtube.com/watch?v=pQMao82to1w'
   },
   {
-    nome: 'Trunfo (TypeScript, ReactJS)', img: require('./tryunfo-lotr.png')
-    , github: 'https://github.com/Jean-Rosa19/Battle-for-Middle-Earth'
+    nome: 'Linger (FingerStyle)', img: require('./linger-1.png')
+    , youTube: 'https://www.youtube.com/watch?v=p4yGnpaxFM8'
   },
   {
-    nome: 'DT-Money (TypeScript, React.JS)', img: require('./dt-money.png')
-    , github: 'https://github.com/Jean-Rosa19/Dt-Money'
+    nome: 'Legião Urbana (FingerStyle)', img: require('./legiao-01.png')
+    , youTube: 'https://www.youtube.com/watch?v=i3J9-HddIBk'
   },
   {
-    nome: 'Secret-Word (ReactJs, Javascript)', img: require('./secret.png')
-    , github: 'https://github.com/Jean-Rosa19/secret-word'
+    nome: 'Canarios (Clássica)', img: require('./canarios-01.png')
+    , youTube: 'https://www.youtube.com/watch?v=4DdtZgw9imw'
   },
   {
-    nome: 'StarWars-api (NodeJs, TypeScript)', img: require('./starWars-api.png')
-    , github: 'https://github.com/Jean-Rosa19/StarWars-PlanetsApi'
+    nome: 'João e Maria (Brasileira)', img: require('./chico-01.png')
+    , youTube: 'https://www.youtube.com/watch?v=ruwSj2ppsY8'
   },
 
 ]

@@ -34,7 +34,7 @@ export default createGlobalStyle`
   }
   
   body{
-    background: linear-gradient(90deg, #8b7e5b 0%, #747a76 100%);
+    background: linear-gradient(90deg, #61BAFA 0%, #16324F 100%);
     -webkit-font-smoothing: antialiase;
   }
 

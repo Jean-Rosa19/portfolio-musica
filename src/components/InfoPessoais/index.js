@@ -1,31 +1,45 @@
 import React from 'react';
+import jean from './jean2.jpeg'
+
 import {
-  FaDev, FaLinkedin, FaGithub, FaMapMarkerAlt,
+  FaGuitar, FaWhatsapp, FaMapMarkerAlt,
   FaRegEnvelope
 } from 'react-icons/fa';
 
 import {
-  Container, Informacoes, DadosPerfil, Funcao ,RedeSociais,
-  Detalhes,DadosEndereco
+  Container, Informacoes, DadosPerfil, Funcao, RedeSociais,
+  Detalhes, DadosEndereco
 } from './styles';
 
 export default function InfoPessoais() {
+
+
+  function openWhatsAppChat() {
+    const phoneNumber = '+5535999450991';
+    const message = 'Olá, gostaria de agendar uma aula!';
+    const encodedMessage = encodeURIComponent(message);
+    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`, '_blank');
+  }
+
   return (
     <Container>
       <Informacoes>
         <DadosPerfil>
-          <img src="https://github.com/Jean-Rosa19.png" alt="Imagem perfil" />
+          <img src={jean} alt="Imagem perfil" />
           <h1>Jean Rosa</h1>
         </DadosPerfil>
         <Funcao>
-          <FaDev size={20} />
-          <span>Web Developer</span>
+          <FaGuitar size={20} />
+          <span>Músico</span>
         </Funcao >
         <RedeSociais>
-          <div>
-            {/* <a href='https://www.youtube.com/channel/UC83GEXrk084TeDcHayLkN-A' target={'_blank'}><FaYoutube size={25} /></a> */}
-            <a href='https://www.linkedin.com/in/dev-jeanrosa/' target={'_blank'}><FaLinkedin size={25} /></a>
-            <a href='https://github.com/Jean-Rosa19' target={'_blank'}><FaGithub size={25} /></a>
+          <div id='whatsApp'>
+      
+            <button onClick={openWhatsAppChat} className='whatsApp'>
+              < FaWhatsapp size={25} />
+              <span>Agendar Aula</span>
+            </button>
+
           </div>
         </RedeSociais>
         <DadosEndereco>
@@ -34,7 +48,7 @@ export default function InfoPessoais() {
             <span>Brazópolis - MG, Brasil</span>
           </Detalhes>
           <Detalhes>
-            <FaRegEnvelope size={20}/>
+            <FaRegEnvelope size={20} />
             <span>jeancarlosrosa22@gmail.com</span>
           </Detalhes>
         </DadosEndereco>
