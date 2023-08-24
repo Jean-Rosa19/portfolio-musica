@@ -65,6 +65,7 @@ export const RedeSociais = styled.div`
   margin-top: 7%;
   padding: 5px;
   background: #61BAFA;
+  border-radius: 20px;
 
   div{
     display: flex;
@@ -112,11 +113,13 @@ export const DadosEndereco = styled.div`
     padding: 10px;
     width: 100%;
     background: #61BAFA;
+    border-radius: 20px;
 `;
 
 export const Detalhes = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
 
   width: 90%;
 
