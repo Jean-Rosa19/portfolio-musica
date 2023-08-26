@@ -48,7 +48,7 @@ export default function DadosProjetos() {
 
                 Minha jornada inclui a realização de recitais, masterclasses, colaborações em duos, trios e participação em orquestras de violão. Meu comprometimento também se estendeu para a sala de aula, onde ministrei aulas em diversos contextos. Além disso, fui aluno da prestigiada Escola Municipal de Música de São Paulo, onde solidifiquei minha formação.
 
-                Meu trabalho atualmente se concentra em aulas particulares, permitindo-me personalizar o aprendizado de acordo com as necessidades individuais dos meus alunos. Minha abordagem é enraizada na dedicação à arte do violão e na busca constante pela excelência musical.
+                Meu trabalho atualmente se concentra em aulas particulares de maneira presencial ou online, permitindo-me personalizar o aprendizado de acordo com as necessidades individuais dos meus alunos. Minha abordagem é enraizada na dedicação à arte do violão e na busca constante pela excelência musical.
 
                 <b> conheça meu trabalho <a href='https://www.youtube.com/channel/UCessnc_3DyPvS1PuM8AhOrA' target={'_blank'}> Clicando aqui!</a></b>
               </span>
