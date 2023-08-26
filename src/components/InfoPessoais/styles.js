@@ -45,6 +45,7 @@ export const DadosPerfil = styled.div`
 
    h1{
      font-size: 1.5rem;
+     color: #dbd8e3;
      
    }
 
@@ -98,6 +99,14 @@ export const RedeSociais = styled.div`
   svg {
     margin: 5px;
   }
+
+ svg:hover {
+  color:#f70776
+ }
+
+ span:hover {
+  color: #f70776;
+ }
 
 `; 
 

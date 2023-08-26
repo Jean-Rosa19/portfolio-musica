@@ -48,17 +48,21 @@ export const Cabecalho = styled.div`
   display:flex;
   flex-direction: column;
 
-  div{
-    display: flex;
-    align-items:center;
-    justify-items: center;
-
-    background: linear-gradient(90deg, #16324F 0%, #18435A 100%);
-    padding-top: 8%;
-    width: 100%;
-    margin-top: 3%;
-    border-radius: 8%;
+  span:hover {
+    color: #f70776;
   }
+
+    /* div{
+      display: flex;
+      align-items:center;
+      justify-items: center;
+
+      background: linear-gradient(90deg, #16324F 0%, #18435A 100%);
+      padding-top: 8%;
+      width: 100%;
+      margin-top: 3%;
+      border-radius: 8%;
+    } */
 `;
 
 
@@ -72,7 +76,7 @@ export const OpcoesMenu = styled.div`
   }
 
   & span:hover {
-    color: blue
+    color: #f70776;
   }
 `;
 
@@ -121,7 +125,7 @@ export const ItemSkill = styled(motion.div)`
   align-items: center;
   flex: 1 1 40%;
   border-radius: 5px;
-  background: #3198F8;
+  background: #dbd8e3;
   margin:0 2% 2% 0;
   height: 15vh;
 

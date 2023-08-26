@@ -31,7 +31,7 @@ export default function DadosProjetos() {
         <Menu>
           <Cabecalho>
             <span className='sobre' onClick={() => handleClickMenu(true)}>Sobre</span>
-            <div></div>
+            {/* <div></div> */}
           </Cabecalho>
           <OpcoesMenu>
             <span onClick={() => handleClickMenu(false)}>Interpretações</span>
