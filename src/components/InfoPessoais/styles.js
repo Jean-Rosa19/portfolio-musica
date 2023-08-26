@@ -20,7 +20,7 @@ export const Funcao = styled.div`
     justify-content: center;
     align-items: center;  
 
-    background: #61BAFA;
+    background: #dbd8e3;
     width: 90%;
     margin-top: 4%;
     padding: 10px;
@@ -64,7 +64,7 @@ export const RedeSociais = styled.div`
   width: 100%;
   margin-top: 7%;
   padding: 5px;
-  background: #61BAFA;
+  background: #dbd8e3;
   border-radius: 20px;
 
   div{
@@ -112,7 +112,7 @@ export const DadosEndereco = styled.div`
     margin-top: 7%;
     padding: 10px;
     width: 100%;
-    background: #61BAFA;
+    background:#dbd8e3;
     border-radius: 20px;
 `;
 
