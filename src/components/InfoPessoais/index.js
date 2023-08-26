@@ -30,7 +30,7 @@ export default function InfoPessoais() {
         </DadosPerfil>
         <Funcao>
           <FaGuitar size={20} />
-          <span>Músico</span>
+          <span>Violonista</span>
         </Funcao >
         <RedeSociais>
           <div id='whatsApp'>
