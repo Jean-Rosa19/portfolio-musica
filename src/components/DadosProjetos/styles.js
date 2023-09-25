@@ -155,16 +155,16 @@ export const ItemSkill = styled(motion.div)`
 export const Itens = styled.div`
   display: flex;
   flex-wrap: wrap;
-  flex-grow:1;
+  /* flex-grow:1; */
   background-color: #61BAFA;
   max-height: 80vh;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   border-radius: 15px;
 `;
 
 export const Card = styled(motion.div)`
   display: flex;
-  flex: 1 1 20%;
+  /* flex: 1 1 20%; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
