@@ -34,7 +34,7 @@ export default function DadosProjetos() {
           
           </Cabecalho>
           <OpcoesMenu>
-            <span onClick={() => handleClickMenu(false)}>Interpretações</span>
+            <span onClick={() => handleClickMenu(false)}>Conteúdos</span>
 
           </OpcoesMenu>
         </Menu>
@@ -53,7 +53,7 @@ export default function DadosProjetos() {
                 <b> conheça meu trabalho <a href='https://www.youtube.com/channel/UCessnc_3DyPvS1PuM8AhOrA' target={'_blank'}> Clicando aqui!</a></b>
               </span>
             </InfoDados>
-            <h1>Conteúdos</h1>
+            <h1>Interpretações</h1>
 
             <Itens>
               {Videos.map((videos) =>

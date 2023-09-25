@@ -113,7 +113,7 @@ export const Skills = styled.div`
   background: #2E6C9E ;
   padding: 10px;
   border-radius: 0 0 15px 14px;
-  max-height: 48.5vh;
+  max-height: 60vh;
   overflow-y: auto;
   overflow-x: hidden;
   width: 100%;
@@ -167,13 +167,13 @@ export const Card = styled(motion.div)`
   flex: 1 1 20%;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 
   background: #000000;
-  border-radius: 15px ;
+  border-radius: 15px 15px 15px 15px ;
   margin: 15px 32px;
-   width: 25%;
-  height: 10%; 
+  width: 25%;
+  height: 15%; 
   box-shadow: 10px 5px 5px rgba(0,0,0,0.4);
   transition: all 0.5s;
 
