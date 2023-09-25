@@ -52,7 +52,7 @@ export const Cabecalho = styled.div`
     color: #f70776;
   }
 
-    /* div{
+     div{
       display: flex;
       align-items:center;
       justify-items: center;
@@ -62,7 +62,7 @@ export const Cabecalho = styled.div`
       width: 100%;
       margin-top: 3%;
       border-radius: 8%;
-    } */
+    } 
 `;
 
 
@@ -171,15 +171,15 @@ export const Card = styled(motion.div)`
 
   background: #000000;
   border-radius: 15px 15px 15px 15px ;
-  margin: 15px 32px;
+  margin: 35px 32px;
   width: 25%;
-  height: 15%; 
+  height: 25vh; 
   box-shadow: 10px 5px 5px rgba(0,0,0,0.4);
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
 
-  &:hover{
+  /* &:hover{
     transform: scale(1.1);
-  }
+  } */
 
   img{
     height: 100%;
