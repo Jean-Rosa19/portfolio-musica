@@ -167,13 +167,13 @@ export const Card = styled(motion.div)`
   flex: 1 1 20%;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 
   background: #000000;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px ;
   margin: 15px 32px;
-  width: 25%;
-  height: 15%;
+   width: 25%;
+  height: 10%; 
   box-shadow: 10px 5px 5px rgba(0,0,0,0.4);
   transition: all 0.5s;
 

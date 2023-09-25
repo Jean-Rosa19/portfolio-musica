@@ -31,7 +31,7 @@ export default function DadosProjetos() {
         <Menu>
           <Cabecalho>
             <span className='sobre' onClick={() => handleClickMenu(true)}>Sobre</span>
-            {/* <div></div> */}
+          
           </Cabecalho>
           <OpcoesMenu>
             <span onClick={() => handleClickMenu(false)}>Interpretações</span>
@@ -54,21 +54,7 @@ export default function DadosProjetos() {
               </span>
             </InfoDados>
             <h1>Conteúdos</h1>
-            <Skills>
-              {ItensSkill.map((Item) =>
-                <ItemSkill animate={{ x: ['-100px', '100px', '0px'] }}
-                  transition={{ ease: "easeOut", duration: 1 }}>
-                  {Item.icon}
-                  <div>
-                    <h3>{Item.titulo}</h3>
 
-                  </div>
-                </ItemSkill>
-              )}
-            </Skills>
-          </>
-        ) : (
-          <>
             <Itens>
               {Videos.map((videos) =>
                 <Card initial="hidden" animate="visible" variants={variants}>
@@ -81,6 +67,22 @@ export default function DadosProjetos() {
                 </Card>
               )}
             </Itens>
+            
+          </>
+        ) : (
+          <>
+        <Skills>
+              {ItensSkill.map((Item) =>
+                <ItemSkill animate={{ x: ['-100px', '100px', '0px'] }}
+                  transition={{ ease: "easeOut", duration: 1 }}>
+                  {Item.icon}
+                  <div>
+                    <h3>{Item.titulo}</h3>
+
+                  </div>
+                </ItemSkill>
+              )}
+            </Skills>
           </>
         )}
       </Dados>
