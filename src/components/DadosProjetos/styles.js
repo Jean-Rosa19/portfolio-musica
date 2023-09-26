@@ -158,7 +158,7 @@ export const Itens = styled.div`
   /* flex-grow:1; */
   background-color: #a59edf;
   max-height: 80vh;
-  /* overflow-y: auto; */
+  overflow-y: auto;
   border-radius: 15px;
 `;
 
