@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #2C5984;
+  background: #120907;
   min-width: 20vw;
   min-height: 90vh;
   border-radius: 15px;
@@ -20,7 +20,7 @@ export const Funcao = styled.div`
     justify-content: center;
     align-items: center;  
 
-    background: #dbd8e3;
+    background: #f0d5ed;
     width: 90%;
     margin-top: 4%;
     padding: 10px;
@@ -45,7 +45,7 @@ export const DadosPerfil = styled.div`
 
    h1{
      font-size: 1.5rem;
-     color: #dbd8e3;
+     color: #f0d5ed;
      
    }
 
@@ -65,7 +65,7 @@ export const RedeSociais = styled.div`
   width: 100%;
   margin-top: 7%;
   padding: 5px;
-  background: #dbd8e3;
+  background: #f0d5ed;
   border-radius: 20px;
 
   div{
@@ -121,7 +121,7 @@ export const DadosEndereco = styled.div`
     margin-top: 7%;
     padding: 10px;
     width: 100%;
-    background:#dbd8e3;
+    background:#f0d5ed;
     border-radius: 20px;
 `;
 

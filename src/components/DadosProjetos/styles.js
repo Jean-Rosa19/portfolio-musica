@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  background: #61BAFA;
+  background: #a59edf;
   max-width: 100vw;
   min-height: 90vh;
   border-radius: 15px;
@@ -90,7 +90,7 @@ export const Dados = styled.div`
   h1{
     margin-top: 2%;
     text-align: center;
-    background:linear-gradient(90deg, #61BAFA 0%, #16324F 100%);
+    background:linear-gradient(90deg, #a59edf 0%, #24283d 100%);
     color: #000000;
     width: 100%;
   }
@@ -110,7 +110,7 @@ export const Skills = styled.div`
   display:flex;
   flex-wrap: wrap;
   flex-grow: 1;
-  background: #2E6C9E ;
+  background: #a59edf ;
   padding: 10px;
   border-radius: 0 0 15px 14px;
   max-height: 60vh;
@@ -125,7 +125,7 @@ export const ItemSkill = styled(motion.div)`
   align-items: center;
   flex: 1 1 40%;
   border-radius: 5px;
-  background: #dbd8e3;
+  background: #f0d5ed;
   margin:0 2% 2% 0;
   height: 15vh;
 
@@ -156,7 +156,7 @@ export const Itens = styled.div`
   display: flex;
   flex-wrap: wrap;
   /* flex-grow:1; */
-  background-color: #61BAFA;
+  background-color: #a59edf;
   max-height: 80vh;
   /* overflow-y: auto; */
   border-radius: 15px;
@@ -174,7 +174,8 @@ export const Card = styled(motion.div)`
   margin: 35px 32px;
   width: 25%;
   height: 25vh; 
-  box-shadow: 10px 5px 5px rgba(0,0,0,0.4);
+
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
   /* transition: all 0.5s; */
 
   /* &:hover{
@@ -193,7 +194,7 @@ export const Card = styled(motion.div)`
     justify-content: center;
     width: 100%;
     height: 30%;
-    background-color: #2E6C9E; // aqui cor de fundo da barra dos projetos
+    background-color: #f0d5ed; // aqui cor de fundo da barra dos projetos
     font-size: 1.4em;
     color: #000000;
     border-radius: 0 0 15px 15px;
@@ -208,7 +209,7 @@ export const Card = styled(motion.div)`
     border-radius: 15px 15px 0 0;
     width: 100%;
     text-align: center;
-    background-color:  #2E6C9E; // cor de fundo app receitas
+    background-color:  #f0d5ed; // cor de fundo app receitas
     color: #000000;
   }
 `;

@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+
+
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
@@ -34,7 +36,7 @@ export default createGlobalStyle`
   }
   
   body{
-    background: linear-gradient(90deg, #61BAFA 0%, #16324F 100%);
+    background: linear-gradient(90deg, #5e5d86 0%, #f0d5ed 100%);
     -webkit-font-smoothing: antialiase;
   }
 
